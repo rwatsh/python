@@ -13,3 +13,6 @@ print evens_to_50
 
 cubes_by_four = [x**3 for x in range(1,11) if (x**3) % 4 == 0]
 print cubes_by_four
+
+threes_and_fives = [i for i in range(1,16) if (i % 3 == 0) or (i % 5 == 0)]
+print threes_and_fives
